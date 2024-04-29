@@ -1,0 +1,31 @@
+.Qr-code-container h1 {
+  color: brown;
+}
+.Qr-code-container input {
+  cursor: pointer;
+  border: 0px;
+  border-bottom: 1px solid red;
+  margin-bottom: 10px;
+  caret-color: brown;
+  color: brown;
+}
+.Qr-code-container input:focus-visible {
+  border: 0;
+  border-bottom: 1px solid red;
+  outline: 0;
+}
+.Qr-code-container button {
+  cursor: pointer;
+  border: 0;
+  border-bottom: 1px solid red;
+  background-color: red;
+  color: #fff;
+  margin: 5px;
+  border-radius: 5px;
+  padding: 2px 15px;
+  outline: 0;
+}
+
+.Qr-code-container input::placeholder {
+  color: rgb(237, 181, 181);
+}

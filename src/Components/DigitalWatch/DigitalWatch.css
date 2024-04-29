@@ -1,0 +1,29 @@
+.Digital-Container {
+  height: 500px;
+  position: relative;
+  background-color: black;
+}
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.Digital-Title {
+  color: blue;
+  font-size: 35px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-shadow: 1px 1px 3px rgb(166, 166, 205);
+}
+.Digital-Watch {
+  display: flex;
+  justify-content: center;
+  color: blue;
+  font-size: 35px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-shadow: 1px 1px 3px rgb(166, 166, 205);
+}
